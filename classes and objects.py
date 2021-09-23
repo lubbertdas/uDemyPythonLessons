@@ -15,7 +15,7 @@ class Employee(Person):
 
     # regular methods automaticaly pass the instance as first argument, which we name self
     # classmethods pass the class as the first argument, we name it cls
-    # static methods pass jack shit, neither instance or class, just like regular functions
+    # static methods pass jack shit, neither instance or class, just like regular functions mm kay
 
     raise_amount = 1.05
 
