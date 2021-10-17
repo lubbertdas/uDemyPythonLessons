@@ -37,7 +37,7 @@ def get_answer(trivia_object):
 
 def main():
     try:
-        r = requests.get("https://opentdb.com/api.php?amount=1&category=12&difficulty=easy&type=multiple", verify=False)
+        r = requests.get("https://opentdb.com/api.php?amount=1&category=12&difficulty=easy&type=multiple")
 
         json_obj        = json.loads(r.text)
 
