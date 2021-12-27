@@ -179,7 +179,7 @@ if condition:
     def display():
         print('display function says hi')
 
-    # in this case the decorator allows us to maintain a unified log by easily apply it to whatever function we find relevant
+    # in this case the decorator allows us to maintain a unified log by easily applying it to whatever function we find relevant
     @my_timer
     def display_info(name, age):
         print('display_info ran with arguments ({}, {})'.format(name, age))
