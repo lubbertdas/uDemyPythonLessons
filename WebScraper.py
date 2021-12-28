@@ -36,4 +36,6 @@ if condition:
 
 source = requests.get('https://coreyms.com', verify=False).text
 soup = BeautifulSoup(source, 'lxml')
-print(soup.prettify())
+
+article = soup.find('article')
+print(article.prettify())
